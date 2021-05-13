@@ -18,16 +18,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="string.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\README.md">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\..\source\GitHub的markdown语法\README.md">
+    <None Include="..\..\source\GitHub的markdown语法\GFM.md">
       <Filter>资源文件\GitHub的markdown语法</Filter>
     </None>
+    <None Include="..\..\Note.md">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="my_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

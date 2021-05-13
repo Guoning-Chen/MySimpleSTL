@@ -123,11 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="string.h" />
+    <ClInclude Include="my_string.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" />
-    <None Include="..\..\source\GitHub的markdown语法\README.md" />
+    <None Include="..\..\Note.md" />
+    <None Include="..\..\source\GitHub的markdown语法\GFM.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
